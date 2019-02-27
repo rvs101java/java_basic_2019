@@ -2,7 +2,7 @@
 
 Repaso Basico Conceptos de Java utilizando la pagina 
 
-[pagina de apoyo](http://www.tutorialesprogramacionya.com/javaya/ "programcionya")
+[Pagina de apoyo](http://www.tutorialesprogramacionya.com/javaya/ "ProgramacionYa")
 
  
 
