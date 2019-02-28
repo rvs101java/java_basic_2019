@@ -1,0 +1,18 @@
+
+
+public class Sumatoria {
+
+	private int num1;
+	private int num2;
+	
+	
+	public static void main(String[] args) {
+
+		
+		
+		int suma = (new Sumatoria().num1 = 3)  + new Sumatoria().num2);
+		
+		
+	}
+ 
+}

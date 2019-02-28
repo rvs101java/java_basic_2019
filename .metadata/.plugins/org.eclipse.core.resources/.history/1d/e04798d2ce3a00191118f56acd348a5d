@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Sumatoria {
+
+	private int num1;
+	private int num2;
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		int suma = (new Sumatoria().num1 = sc.nextInt())  + (new Sumatoria().num2 = sc.nextInt());
+		
+		
+	}
+
+}
