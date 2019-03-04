@@ -22,6 +22,9 @@ public class T8Ej7ParesImpares {
 			System.out.println(" - Numero: " + num);
 		}
 		System.out.println("Numero Generado es : " + numeros);
+
+		System.out.println("-----------------");
+		Sol7.getSol7();
 	}
 }
 
@@ -33,13 +36,14 @@ class Sol7 {
 		x = 1;
 		pares = 0;
 		impares = 0;
+		int contador = 0;
 
 		// Procesamiento
-		System.out.println("Cuantos numeros ingresara: ");
 		n = (int) (Math.random() * (1 + 10) + 1);
+		System.out.println("Cuantos numeros ingresara: " + (n));
 		while (x <= n) {
-			System.out.println("Ingrese el valor: ");
 			valor = new Random().nextInt(99);
+			System.out.println((++contador) +" - " + " Ingrese el valor: " + valor);
 			if (valor % 2 == 0) {
 				pares = pares + 1;
 			} else {
