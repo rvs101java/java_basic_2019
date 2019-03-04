@@ -20,7 +20,12 @@
 <fullyQualifiedTypeName name="LeerTeclado"/>
 <fullyQualifiedTypeName name="Operario"/>
 <fullyQualifiedTypeName name="RangoVariacion"/>
-<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 <fullyQualifiedTypeName name="NumAleatorios"/>
 <fullyQualifiedTypeName name="SolucionVariacion"/>
+<fullyQualifiedTypeName name="org.omg.PortableInterceptor.NON_EXISTENT"/>
+<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
+<fullyQualifiedTypeName name="ejercicios.Sol5"/>
+<fullyQualifiedTypeName name="ejercicios.Sol1"/>
+<fullyQualifiedTypeName name="java.beans.PropertyEditorManager"/>
+<fullyQualifiedTypeName name="ejercicios.Sol6"/>
 </qualifiedTypeNameHistroy>
