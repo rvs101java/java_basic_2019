@@ -31,7 +31,8 @@ public class T8Ej6Carga2Listas15Valores {
 		} else {
 			System.out.println("Lista 2 es mayor : " + l2);
 		}
-		
+
+		System.out.println("----------------");
 		Sol6.getSol6();
 
 	}
@@ -48,8 +49,8 @@ class Sol6 {
 
 		System.out.println("Primer Lista");
 		while (x <= 15) {
-			System.out.println("Ingresar valor : ");
 			valor = (int) (Math.random() * (1 + 100));
+			System.out.println("Ingresar valor : " + valor);
 			suma1 = suma1 + valor;
 			x = x + 1;
 		}
@@ -65,13 +66,11 @@ class Sol6 {
 		if (suma1 > suma2) {
 			System.out.println(" + Lista 1 mayor.");
 		} else {
-			if(suma2 > suma1) {
+			if (suma2 > suma1) {
 				System.out.println(" * Lista2 mayor.");
-			}else {
+			} else {
 				System.out.println(" - Listas iguales.");
 			}
 		}
-
 	}
-
 }

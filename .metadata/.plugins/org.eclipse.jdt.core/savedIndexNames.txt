@@ -1,6 +1,5 @@
 INDEX VERSION 1.130+C:\_eclipse_repo\pro_ya_java\java_basic_2019\.metadata\.plugins\org.eclipse.jdt.core
 3498974549.index
-2382940133.index
 1897928139.index
 3079686767.index
 3698278747.index
