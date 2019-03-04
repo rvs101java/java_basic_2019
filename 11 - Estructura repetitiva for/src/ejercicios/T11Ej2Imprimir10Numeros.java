@@ -1,5 +1,7 @@
 package ejercicios;
 
+import java.util.Scanner;
+
 public class T11Ej2Imprimir10Numeros {
 
 	public static void main(String[] args) {
@@ -32,7 +34,46 @@ public class T11Ej2Imprimir10Numeros {
 		for (int j = 0; j < 12; j++) {
 			System.out.println("Tabla del " + x + " x " + j + " = " + j * x);
 		}
-		
-		
+
+		System.out.println("------------");
+		// Sol2.getSol2();
+		// Sol2.getSol3();
+		Sol2.getSol4();
+
+	}
+}
+
+class Sol2 {
+
+	public static void getSol2() {
+		Scanner sc = new Scanner(System.in);
+		int f, valor, suma;
+		suma = 0;
+		for (f = 1; f <= 10; f++) {
+			System.out.println("Ingrese un valor");
+			valor = sc.nextInt();
+			if (f > 5) {
+				suma = suma + valor;
+			}
+		}
+		System.out.println("La suma  de los ultimos 5 valores es: " + suma);
+		sc.close();
+	}
+
+	public static void getSol3() {
+		int f;
+		for (f = 5; f <= 50; f = f + 5) {
+			System.out.println(f + " - ");
+		}
+	}
+
+	public static void getSol4() {
+		Scanner sc = new Scanner(System.in);
+		int f, valor;
+		System.out.println("Ingrese un valor entre 1 y 10");
+		valor = sc.nextInt();
+		for (f = valor; f <= valor * 12; f += valor) {
+			System.out.print(f + " - ");
+		}
 	}
 }
