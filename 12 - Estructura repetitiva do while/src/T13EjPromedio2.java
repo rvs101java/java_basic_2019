@@ -19,15 +19,20 @@ public class T13EjPromedio2 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduce una medida entre 9.8 y 10.2 kg");
 		double medida = sc.nextDouble();
-		int pieza9k = 0;
-		int pieza10k = 0;
+		int piezaEstandar = 0;
+		int piezaMayores = 0;
+		int piezaMenores = 0;
 
 		do {
-			if (((medida >= 9.8) && (medida <= 10.2) ? true : false)) {
-				if ((medida >= 9.8) && (medida <= 10.2) ? true : false) {
 
-				}
-
+			if ((medida >= 9.8) && (medida <= 10.2)) {
+				piezaEstandar++;
+			}
+			if (medida >= 10.2) {
+				piezaMayores++;
+			}
+			if (medida <= 9.8) {
+				piezaMenores++;
 			}
 
 		} while (medida != 0);
