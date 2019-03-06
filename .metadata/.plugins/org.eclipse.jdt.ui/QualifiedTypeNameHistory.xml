@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="TipoPositivoNegativoNulo"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="Num3Cifras"/>
 <fullyQualifiedTypeName name="CorregirTest"/>
 <fullyQualifiedTypeName name="Solucion"/>
@@ -13,14 +12,38 @@
 <fullyQualifiedTypeName name="MesTrimestral"/>
 <fullyQualifiedTypeName name="java.beans.FeatureDescriptor"/>
 <fullyQualifiedTypeName name="T1FechaNavidad"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="T5IngresarCoordenadas"/>
 <fullyQualifiedTypeName name="T5IngCoor"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="LeerTeclado"/>
 <fullyQualifiedTypeName name="Operario"/>
 <fullyQualifiedTypeName name="RangoVariacion"/>
-<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 <fullyQualifiedTypeName name="NumAleatorios"/>
 <fullyQualifiedTypeName name="SolucionVariacion"/>
+<fullyQualifiedTypeName name="org.omg.PortableInterceptor.NON_EXISTENT"/>
+<fullyQualifiedTypeName name="ejercicios.Sol1"/>
+<fullyQualifiedTypeName name="java.beans.PropertyEditorManager"/>
+<fullyQualifiedTypeName name="ejercicios.Sol6"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.math.MathContext"/>
+<fullyQualifiedTypeName name="java.math.RoundingMode"/>
+<fullyQualifiedTypeName name="java.util.function.ToLongBiFunction"/>
+<fullyQualifiedTypeName name="ejercicios.Sol5"/>
+<fullyQualifiedTypeName name="ejercicios.Sol7"/>
+<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
+<fullyQualifiedTypeName name="java.beans.PersistenceDelegate"/>
+<fullyQualifiedTypeName name="Triangulo"/>
+<fullyQualifiedTypeName name="Punto"/>
+<fullyQualifiedTypeName name="Cuadrado"/>
+<fullyQualifiedTypeName name="Cuadrado2"/>
+<fullyQualifiedTypeName name="ejemplo.Empleado"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="ejemplo.Operaciones"/>
+<fullyQualifiedTypeName name="ejemplo.Empleado1"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="TablaMultiplicar"/>
+<fullyQualifiedTypeName name="MayorMenor"/>
+<fullyQualifiedTypeName name="PruebaVector1"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="VectorFloat"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
 </qualifiedTypeNameHistroy>
