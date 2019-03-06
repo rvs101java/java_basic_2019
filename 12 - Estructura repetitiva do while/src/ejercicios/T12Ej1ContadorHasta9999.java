@@ -9,7 +9,7 @@ package ejercicios;
  * @author Rad
  *
  */
-public class T12Ej1 {
+public class T12Ej1ContadorHasta9999 {
 
 	public static void main(String[] args) {
 		int con = 0, suma = 0;

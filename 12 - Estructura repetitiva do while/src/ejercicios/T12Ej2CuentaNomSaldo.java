@@ -27,7 +27,7 @@ import java.util.Scanner;
  * @author Rad
  *
  */
-public class T12Ej2 {
+public class T12Ej2CuentaNomSaldo {
 
 	public static void main(String[] args) {
 
