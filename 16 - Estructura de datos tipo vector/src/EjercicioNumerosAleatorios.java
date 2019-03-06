@@ -1,5 +1,5 @@
 
-public class PruebasNumerosAleatorios {
+public class EjercicioNumerosAleatorios {
 
 	public static void main(String[] args) {
 

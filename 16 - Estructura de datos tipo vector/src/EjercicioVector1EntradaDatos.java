@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class PruebaVector1 {
+public class EjercicioVector1EntradaDatos {
 
 	private Scanner teclado;
 	private int[] sueldo;
@@ -24,7 +24,7 @@ public class PruebaVector1 {
 	}
 
 	public static void main(String[] args) {
-		PruebaVector1 pv1 = new PruebaVector1();
+		EjercicioVector1EntradaDatos pv1 = new EjercicioVector1EntradaDatos();
 		pv1.cargar();
 		pv1.imprimir();
 

@@ -9,14 +9,14 @@ import java.util.Scanner;
  * @author Rad
  *
  */
-public class PruebaVector2 {
+public class EjercicioVector2Alturas {
 
 	public static void main(String[] args) {
 		VectorFloat vf = new VectorFloat();
 		vf.getAltura();
-		vf.getPersonaAlta();
 		vf.getPersonaBaja();
-		vf.getPromedio();
+		vf.getPersonaAlta();
+		vf.getAlturasPorPromedio();
 	}
 }
 
@@ -66,12 +66,31 @@ class VectorFloat {
 		System.out.println("Mas bajo: " + get2Digitos(bajas));
 	}
 
-	public double getPromedio() {
+	public float getPromedio() {
 		for (int i = 0; i < personas.length; i++) {
 			promedio += personas[i];
 		}
-		System.out.println("Promedio de altura: " + get2Digitos(promedio / personas.length));
 		return (promedio / personas.length);
+	}
+
+	public void getAlturasPorPromedio() {
+		int may = 0;
+		int men = 0;
+
+		float promedio = getPromedio();
+		System.out.println("- Promedio de altura: " + promedio);
+
+		for (int i = 0; i < personas.length; i++) {
+			if (personas[i] > promedio) {
+				may++;
+			} else {
+				if (personas[i] < promedio) {
+					men++;
+				}
+			}
+		}
+		System.out.println("Cantidad de personas mayores al promedio:" + may);
+		System.out.println("Cantidad de personas menores al promedio:" + men);
 	}
 
 	public float get2Digitos(float numero) {
@@ -79,12 +98,4 @@ class VectorFloat {
 		bd = bd.setScale(2, RoundingMode.HALF_UP);
 		return (float) bd.doubleValue();
 	}
-
-}
-
-class Sol1 {
-
-	private Scanner teclado;
-	private float[] alturas;
-	private float promedio;
 }
