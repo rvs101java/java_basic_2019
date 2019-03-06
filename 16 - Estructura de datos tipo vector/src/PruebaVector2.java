@@ -3,6 +3,12 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
+/**
+ * Ejemplo de personas
+ * 
+ * @author Rad
+ *
+ */
 public class PruebaVector2 {
 
 	public static void main(String[] args) {
@@ -79,6 +85,6 @@ class VectorFloat {
 class Sol1 {
 
 	private Scanner teclado;
-	private float [] alturas;
+	private float[] alturas;
 	private float promedio;
 }
