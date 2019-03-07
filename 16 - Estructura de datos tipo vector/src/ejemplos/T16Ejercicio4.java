@@ -26,17 +26,25 @@ class OrdenarElementos {
 		vectorA = new int[longitud];
 		for (int i = 0; i < vectorA.length; i++) {
 			vectorA[i] = (int) (Math.random() * (1 + 100) + 1);
-			System.out.println("Vector A: " + vectorA[i]);
+			System.out.println("+ Vector A: " + vectorA[i]);
 		}
 	}
 
 	public void ordenarVectores() {
-		int intermedio;
+		int num1 = 0;
+		int num2 = 0;
 		for (int i = 1; i < vectorA.length; i++) {
-			if (vectorA[i - 1] > vectorA[i]) {
-				intermedio = vectorA[i - 1];
-				vectorA[i - 1] = vectorA[i];
-				vectorA[i] = intermedio;
+			if (vectorA[0] >= vectorA[i]) {
+				num1 = vectorA[i];
+				vectorA[i] = vectorA[0];
+				vectorA[0] = num1;
+			}
+			for (int ii = 1; ii < vectorA.length; ii++) {
+				if (vectorA[ii - 1] >= vectorA[ii]) {
+					num2 = vectorA[ii - 1];
+					vectorA[ii - 1] = vectorA[ii];
+					vectorA[ii] = num2;
+				}
 			}
 		}
 		verVectores(vectorA);
@@ -45,7 +53,7 @@ class OrdenarElementos {
 	public void verVectores(int[] vector) {
 		System.out.println("---------------------");
 		for (int i = 0; i < vectorA.length; i++) {
-			System.out.println("Posicion: " + vectorA[i]);
+			System.out.println("- Posicion: " + vectorA[i]);
 		}
 	}
 }
