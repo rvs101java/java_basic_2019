@@ -42,7 +42,7 @@ class OrdenarElementos {
 			for (int ii = 1; ii < vectorA.length; ii++) {
 				if (vectorA[ii - 1] >= vectorA[ii]) {
 					num2 = vectorA[ii - 1];
-					vectorA[ii - 1] = vectorA[ii];
+					vectorA[ii - 1] = vectorA[ii];	
 					vectorA[ii] = num2;
 				}
 			}

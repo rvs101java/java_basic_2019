@@ -18,6 +18,9 @@ public class T16Ejercicio2Sol {
 
 	public static void main(String[] args) {
 
+		Vectores2Sol vs = new Vectores2Sol();
+		vs.cargar();
+		vs.sumarizarVectores();
 	}
 }
 
@@ -35,6 +38,25 @@ class Vectores2Sol {
 		System.out.println("Carga del primer vector.");
 		for (int f = 0; f < 4; f++) {
 			System.out.println("Ingrese elemento: ");
+			vec1[f] = teclado.nextInt();
+		}
+		System.out.println("Carga del segundo vector.");
+		for (int f = 0; f < 4; f++) {
+			System.out.println("Ingrese elemento: ");
+			vec2[f] = teclado.nextInt();
+		}
+	}
+
+	public void sumarizarVectores() {
+		vecSuma = new int[4];
+		
+		for (int f = 0; f < 4; f++) {
+			vecSuma[f] = vec1[f] + vec2[f];
+		}
+	
+		System.out.println("Vector resultante");
+		for(int f = 0 ; f < 4 ; f++) {
+			System.out.println(vecSuma[f]);
 		}
 	}
 
