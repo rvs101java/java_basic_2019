@@ -75,5 +75,6 @@ class Sol2 {
 		for (f = valor; f <= valor * 12; f += valor) {
 			System.out.print(f + " - ");
 		}
+		sc.close();
 	}
 }
