@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="MesTrimestral"/>
-<fullyQualifiedTypeName name="java.beans.FeatureDescriptor"/>
-<fullyQualifiedTypeName name="T1FechaNavidad"/>
-<fullyQualifiedTypeName name="T5IngresarCoordenadas"/>
-<fullyQualifiedTypeName name="T5IngCoor"/>
-<fullyQualifiedTypeName name="LeerTeclado"/>
-<fullyQualifiedTypeName name="Operario"/>
-<fullyQualifiedTypeName name="RangoVariacion"/>
-<fullyQualifiedTypeName name="NumAleatorios"/>
-<fullyQualifiedTypeName name="SolucionVariacion"/>
-<fullyQualifiedTypeName name="org.omg.PortableInterceptor.NON_EXISTENT"/>
 <fullyQualifiedTypeName name="ejercicios.Sol1"/>
 <fullyQualifiedTypeName name="java.beans.PropertyEditorManager"/>
 <fullyQualifiedTypeName name="ejercicios.Sol6"/>
@@ -30,7 +19,6 @@
 <fullyQualifiedTypeName name="MayorMenor"/>
 <fullyQualifiedTypeName name="PruebaVector1"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="Sol1"/>
 <fullyQualifiedTypeName name="VectorFloat"/>
 <fullyQualifiedTypeName name="GestionarTurnos"/>
 <fullyQualifiedTypeName name="Turnos"/>
@@ -43,15 +31,11 @@
 <fullyQualifiedTypeName name="ejemplos.Notas"/>
 <fullyQualifiedTypeName name="ejemplos.Vectores"/>
 <fullyQualifiedTypeName name="ejemplos.Vectores2Sol"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 <fullyQualifiedTypeName name="ejemplos.VectorSol3"/>
 <fullyQualifiedTypeName name="ejemplos.VectorSol4"/>
 <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
 <fullyQualifiedTypeName name="SueldoOperario"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="CrearSueldos"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="ejemplo.CrearVector"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.math.BigDecimal"/>
@@ -60,4 +44,20 @@
 <fullyQualifiedTypeName name="java.lang.Character"/>
 <fullyQualifiedTypeName name="ejemplo.Personas"/>
 <fullyQualifiedTypeName name="ejemplo.NombresEdades"/>
+<fullyQualifiedTypeName name="ejercicio.Enteros"/>
+<fullyQualifiedTypeName name="ejercicio.EnterosMayorMenor"/>
+<fullyQualifiedTypeName name="OrdenacionAlumnos"/>
+<fullyQualifiedTypeName name="Sol1"/>
+<fullyQualifiedTypeName name="Matriz"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ejercicios.Matriz4x42"/>
+<fullyQualifiedTypeName name="ejercicios.Matriz4x4"/>
+<fullyQualifiedTypeName name="ejercicios.Matriz3x4"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
+<fullyQualifiedTypeName name="ejercicios.Matrices2x5"/>
+<fullyQualifiedTypeName name="ejercicios.T22MatricesEjercicios2x5"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="MatrizNporM"/>
 </qualifiedTypeNameHistroy>
