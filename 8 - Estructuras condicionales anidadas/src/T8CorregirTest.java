@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class CorregirTest {
+public class T8CorregirTest {
 
 	private static double preguntas;
 	private static double respuestas;
 
 	private Scanner sc = new Scanner(System.in);
 
-	public CorregirTest() {
-		CorregirTest.preguntas = 0;
+	public T8CorregirTest() {
+		T8CorregirTest.preguntas = 0;
 		respuestas = 0;
 	}
 
@@ -17,7 +17,7 @@ public class CorregirTest {
 		double porcentaje = 0;
 		double total = 0;
 
-		CorregirTest ct = new CorregirTest();
+		T8CorregirTest ct = new T8CorregirTest();
 
 		System.out.println("Introduce numero de preguntas");
 		preguntas = ct.sc.nextInt();

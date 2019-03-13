@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class NumeroPositivo {
+public class T8NumeroPositivo {
 
 	public static void main(String[] args) {
 

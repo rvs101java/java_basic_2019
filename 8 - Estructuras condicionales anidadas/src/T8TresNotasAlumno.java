@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class TresNotasAlumno {
+public class T8TresNotasAlumno {
 
 	private static int nota1;
 	private static int nota2;
@@ -9,10 +9,10 @@ public class TresNotasAlumno {
 	private static int promedio;
 	private static Scanner sc = new Scanner(System.in);
 
-	public TresNotasAlumno() {
-		TresNotasAlumno.nota1 = 0;
+	public T8TresNotasAlumno() {
+		T8TresNotasAlumno.nota1 = 0;
 		nota2 = 0;
-		TresNotasAlumno.nota3 = (TresNotasAlumno.nota1 + nota2);
+		T8TresNotasAlumno.nota3 = (T8TresNotasAlumno.nota1 + nota2);
 	}
 
 	public int getNumero() {
@@ -27,11 +27,11 @@ public class TresNotasAlumno {
 	public static void main(String[] args) {
 		
 		System.out.println("Introduce 1º nota");
-		nota1 = new TresNotasAlumno().getNumero();
+		nota1 = new T8TresNotasAlumno().getNumero();
 		System.out.println("Introduce 2º nota");
-		nota2 = new TresNotasAlumno().getNumero();
+		nota2 = new T8TresNotasAlumno().getNumero();
 		System.out.println("Introduce 3º nota");
-		nota3 = new TresNotasAlumno().getNumero();
+		nota3 = new T8TresNotasAlumno().getNumero();
 
 		promedio = (nota1 + nota2 + nota3);
 

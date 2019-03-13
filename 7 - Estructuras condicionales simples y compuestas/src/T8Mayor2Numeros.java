@@ -1,5 +1,5 @@
 
-public class Mayor2Numeros {
+public class T8Mayor2Numeros {
 
 	private int x = (int) (Math.random() * (1 + 10) + 1);
 	private int y = (int) (Math.random() * (1 + 10) + 1);
@@ -9,12 +9,12 @@ public class Mayor2Numeros {
 		int suma = 0, diferencia = 0;
 		int multiplicacion = 0, division = 0;
 
-		if (new Mayor2Numeros().x > new Mayor2Numeros().y) {
-			suma = new Mayor2Numeros().x + new Mayor2Numeros().y;
-			diferencia = new Mayor2Numeros().x + new Mayor2Numeros().y;
+		if (new T8Mayor2Numeros().x > new T8Mayor2Numeros().y) {
+			suma = new T8Mayor2Numeros().x + new T8Mayor2Numeros().y;
+			diferencia = new T8Mayor2Numeros().x + new T8Mayor2Numeros().y;
 		}else {
-			multiplicacion = new Mayor2Numeros().x + new Mayor2Numeros().y;
-			division = new Mayor2Numeros().x + new Mayor2Numeros().y;
+			multiplicacion = new T8Mayor2Numeros().x + new T8Mayor2Numeros().y;
+			division = new T8Mayor2Numeros().x + new T8Mayor2Numeros().y;
 			
 		}
 		

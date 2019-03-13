@@ -1,19 +1,19 @@
 
 import java.util.Scanner;
 
-public class Num3Cifras {
+public class T8Num3Cifras {
 
 	private int num;
 	private Scanner sc = new Scanner(System.in);
 
-	public Num3Cifras() {
+	public T8Num3Cifras() {
 		num = (int) sc.nextInt();
 	}
 
 	public static void main(String[] args) {
 
 		System.out.println("Introduce un numero de 1 a 3 cifras");
-		Num3Cifras n = new Num3Cifras();
+		T8Num3Cifras n = new T8Num3Cifras();
 		System.out.println("Numero introducido : " + n.num);
 
 		if (n.num >= 1000) {

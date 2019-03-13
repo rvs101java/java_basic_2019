@@ -1,5 +1,5 @@
 
-public class SueldoUsuario {
+public class T8SueldoUsuario {
 
 	public static void main(String[] args) {
 

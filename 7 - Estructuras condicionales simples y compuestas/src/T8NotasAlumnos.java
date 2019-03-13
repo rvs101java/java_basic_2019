@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NotasAlumnos {
+public class T8NotasAlumnos {
 
 	private static Scanner sc = new Scanner(System.in);
 	private static int num, num1, num2 = 0;

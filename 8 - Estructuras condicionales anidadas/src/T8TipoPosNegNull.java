@@ -1,18 +1,18 @@
 import java.util.Random;
 
-public class TipoPosNegNull {
+public class T8TipoPosNegNull {
 
 	private static int num1;
 	private static int num2s;
 	private int num2;
-	private final static TipoPosNegNull TPN = new TipoPosNegNull();
+	private final static T8TipoPosNegNull TPN = new T8TipoPosNegNull();
 
 	static {
 		num1 = (int) (Math.random() * (1 + 9) + 1);
 		num2s = TPN.num2 = new Random().nextInt();
 	}
 
-	public TipoPosNegNull() {
+	public T8TipoPosNegNull() {
 		num1 = num2 = num2s = 0;
 	}
 

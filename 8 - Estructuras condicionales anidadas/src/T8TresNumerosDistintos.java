@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TresNumerosDistintos {
+public class T8TresNumerosDistintos {
 
 	private final static int NUM1 = (int) (Math.random() * (1 + 9) + 1);
 	private final static int NUM2 = (int) (Math.random() * (1 + 9) + 1);

@@ -21,5 +21,6 @@ public class T23FilasColumnas {
 
 		T23FilasColumnas tfc = new T23FilasColumnas();
 		tfc.getTotal();
+		
 	}
 }
