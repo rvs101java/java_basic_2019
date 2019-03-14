@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Triangulo"/>
-<fullyQualifiedTypeName name="Punto"/>
-<fullyQualifiedTypeName name="Cuadrado"/>
 <fullyQualifiedTypeName name="Cuadrado2"/>
 <fullyQualifiedTypeName name="ejemplo.Empleado"/>
 <fullyQualifiedTypeName name="ejemplo.Operaciones"/>
@@ -51,7 +48,6 @@
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="MatrizNporM"/>
 <fullyQualifiedTypeName name="MatricesMultiplica"/>
-<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 <fullyQualifiedTypeName name="java.lang.management.ClassLoadingMXBean"/>
 <fullyQualifiedTypeName name="MatrizSol1"/>
 <fullyQualifiedTypeName name="T23FilasColumnas"/>
@@ -59,5 +55,9 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="ejercicios.MatrizOrdenacion"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="javax.sound.midi.Synthesizer"/>
 <fullyQualifiedTypeName name="ejercicios.MatrizFilaColums"/>
+<fullyQualifiedTypeName name="java.awt.image.PixelInterleavedSampleModel"/>
+<fullyQualifiedTypeName name="ejercicios.MatrizVertices"/>
+<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 </qualifiedTypeNameHistroy>

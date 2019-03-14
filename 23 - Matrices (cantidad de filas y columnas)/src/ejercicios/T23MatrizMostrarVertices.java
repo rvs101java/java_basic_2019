@@ -13,8 +13,8 @@ public class T23MatrizMostrarVertices {
 
 	public static void main(String[] args) {
 		MatrizVertices mv = new MatrizVertices();
-		mv.setDimension1(10);
-		mv.setDimension2(12);
+		mv.setDimension1(4);
+		mv.setDimension2(5);
 		mv.setValoresMatriz();
 		mv.verMatriz();
 		mv.setVertices();
