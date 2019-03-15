@@ -8,7 +8,6 @@ public class T7PruebaIfAnidados {
 		int y = (int) (Math.random() * (1 + 100) + 1);
 
 		if (4 > 9) {
-
 		} else {
 			System.out.println("falso");
 		}
@@ -16,7 +15,6 @@ public class T7PruebaIfAnidados {
 		if (4 < 9) {
 			System.out.println("verdadero");
 		} else {
-
 		}
 
 		System.out.println("Valor de x : " + x);
