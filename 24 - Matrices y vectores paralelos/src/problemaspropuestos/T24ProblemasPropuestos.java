@@ -39,6 +39,7 @@ public class T24ProblemasPropuestos {
 		TemperaturaPaises tp = new TemperaturaPaises();
 		tp.setTemperaturaMedia();
 		tp.verTemperaturaMedia();
+		tp.getTemperaturaMayor();
 
 	}
 }
@@ -88,7 +89,7 @@ class TemperaturaPaises {
 		return getTemperaturaMedia();
 	}
 
-	public double[] verTemperaturaMedia() {
+	public void verTemperaturaMedia() {
 		int contador = 1;
 		for (int f = 0; f < getPaises().length; f++) {
 			System.out.println((contador) + "- Pais: " + getPaises()[f] + " - Temperatura Media: "
@@ -98,15 +99,16 @@ class TemperaturaPaises {
 			}
 			contador++;
 		}
-		return temperaturaMedia;
 	}
 
-	public double[] getTemperaturaMayor() {
-		int contador = 1;
-		for (int f = 0; f < getPaises().length; f++) {
-
+	public void getTemperaturaMayor() {
+		int posicion = 0;
+		for (int f = 1; f < getPaises().length; f++) {
+			if (getTemperaturaMedia()[0] < getTemperaturaMedia()[f]) {
+				getTemperaturaMedia()[0] = getTemperaturaMedia()[f];
+				posicion = f;
+			}
 		}
-		return temperaturaMedia;
+		System.out.println("- Pais con la temperatura más alta: " + getTemperaturaMedia()[0] + " - " + getPaises()[posicion]);
 	}
-
 }
