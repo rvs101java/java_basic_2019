@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="TablaMultiplicar"/>
-<fullyQualifiedTypeName name="MayorMenor"/>
-<fullyQualifiedTypeName name="PruebaVector1"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="VectorFloat"/>
-<fullyQualifiedTypeName name="GestionarTurnos"/>
-<fullyQualifiedTypeName name="Turnos"/>
-<fullyQualifiedTypeName name="Empleados"/>
-<fullyQualifiedTypeName name="javax.print.attribute.standard.PrinterURI"/>
-<fullyQualifiedTypeName name="java.util.PropertyResourceBundle"/>
 <fullyQualifiedTypeName name="TurnosEmpleados"/>
 <fullyQualifiedTypeName name="java.awt.RadialGradientPaint"/>
 <fullyQualifiedTypeName name="ejemplos.Vectores2"/>
@@ -57,7 +47,17 @@
 <fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="ProblemasPropuestos.T25MatricesIrregularesEj1Sol"/>
 <fullyQualifiedTypeName name="ProblemasPropuestos.MatrizIrregularEj2"/>
+<fullyQualifiedTypeName name="problemas.Operarios"/>
+<fullyQualifiedTypeName name="problemas.Alumno"/>
+<fullyQualifiedTypeName name="ejercicios.Empleado"/>
+<fullyQualifiedTypeName name="ejercicios.Operaciones"/>
+<fullyQualifiedTypeName name="Cadena"/>
+<fullyQualifiedTypeName name="MetodosString"/>
+<fullyQualifiedTypeName name="problema.Cadenas"/>
+<fullyQualifiedTypeName name="problemas_propuestos.CorreoElectronico"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="problemas_propuestos.MetodosString"/>
 </qualifiedTypeNameHistroy>
