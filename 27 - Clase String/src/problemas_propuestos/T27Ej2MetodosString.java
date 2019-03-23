@@ -2,6 +2,8 @@ package problemas_propuestos;
 
 import java.util.Scanner;
 
+import javax.swing.plaf.FontUIResource;
+
 /**
  * Cargar un String por teclado e implementar los siguientes métodos:
  * 
@@ -32,6 +34,9 @@ public class T27Ej2MetodosString {
 		ms.setAgregarGuion();
 		ms.setAgregarGuion2();
 		ms.getVocales();
+		ms.getPalidromo();
+		ms.getPalidromo2();
+
 	}
 }
 
@@ -70,6 +75,7 @@ class MetodosString {
 	 * c) Imprimirlo en forma inversa.
 	 */
 	public void getCadenaInvertida() {
+		System.out.println("Invertir Array ");
 		char[] cadena = new char[getCadena().length()];
 
 		for (int i = 0; i < getCadena().length(); i++) {
@@ -78,6 +84,7 @@ class MetodosString {
 		}
 
 		System.out.println("\n--------");
+		System.out.println("Array Invertido");
 
 		for (int c = cadena.length - 1; c >= 0; c--) {
 			System.out.print(cadena[c]);
@@ -129,5 +136,55 @@ class MetodosString {
 			}
 		}
 		System.out.println("cadena: " + cadena + " contador: " + contador);
+	}
+
+	/**
+	 * f) Implementar un método que verifique si la cadena se lee igual de izquierda
+	 * a derecha tanto como de derecha a izquierda (ej. neuquen se lee igual en las
+	 * dos direcciones)
+	 * 
+	 */
+	public void getPalidromo() {
+		System.out.println("# Obtener Palidromo 1º");
+		String cadena = "neuquen";
+		System.out.println("Longitud total: " + cadena.length());
+		int cN = (cadena.length() - 1);
+		for (int i = 0; i < cadena.length(); i++) {
+			if (cadena.charAt(i) == cadena.charAt(cN)) {
+				System.out.println(cadena.charAt(i) + " - " + cadena.charAt(cN));
+			}
+			cN--;
+		}
+	}
+
+	public void getPalidromo2() {
+		System.out.println("# Obtener Palidromo 2º");
+		String cadena1 = "perro";
+		String cadena2 = "";
+		System.out.println("# Longitud total: " + cadena1.length());
+
+		char[] caracteres = new char[cadena1.length()];
+		char[] caracteres2 = new char[cadena1.length()];
+
+		for (int i = 0; i < cadena1.length(); i++) {
+			caracteres[i] = cadena1.charAt(i);
+		}
+
+		System.out.println("-----------------");
+		System.out.println("# Invertir valores");
+		System.out.println("-----------------");
+		int cInvertido = 0;
+
+		for (int i = caracteres.length - 1; i >= 0; i--) {
+			caracteres2[i] = caracteres[cInvertido];
+			System.out.println(caracteres2[i] + " indice: " + i + " Invertido: " + caracteres[cInvertido] + " indice: "
+					+ cInvertido);
+			cInvertido++;
+		}
+ 
+		System.out.println("-----------------");
+		cadena2 = String.valueOf(caracteres2);
+		System.out.println(((cadena1.compareTo(cadena2) == 0) ? "Iguales" : "No Iguales"));
+
 	}
 }

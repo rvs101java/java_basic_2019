@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="TurnosEmpleados"/>
-<fullyQualifiedTypeName name="java.awt.RadialGradientPaint"/>
-<fullyQualifiedTypeName name="ejemplos.Vectores2"/>
-<fullyQualifiedTypeName name="ejemplos.Notas"/>
 <fullyQualifiedTypeName name="ejemplos.Vectores"/>
 <fullyQualifiedTypeName name="ejemplos.Vectores2Sol"/>
 <fullyQualifiedTypeName name="ejemplos.VectorSol3"/>
@@ -45,7 +41,6 @@
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.lang.Character"/>
 <fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="ProblemasPropuestos.T25MatricesIrregularesEj1Sol"/>
 <fullyQualifiedTypeName name="ProblemasPropuestos.MatrizIrregularEj2"/>
@@ -58,6 +53,11 @@
 <fullyQualifiedTypeName name="problema.Cadenas"/>
 <fullyQualifiedTypeName name="problemas_propuestos.CorreoElectronico"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="problemas_propuestos.MetodosString"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthDesktopIconUI"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.FontUIResource"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="problemas_propuestos.Clave"/>
+<fullyQualifiedTypeName name="problemas_propuestos.Personas"/>
 </qualifiedTypeNameHistroy>
