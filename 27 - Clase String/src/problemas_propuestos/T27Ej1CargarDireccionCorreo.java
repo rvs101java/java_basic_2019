@@ -33,7 +33,6 @@ class CorreoElectronico {
 		} else {
 			System.out.println(getCadena().concat(" : No es un correo valido"));
 		}
-
 	}
 
 }

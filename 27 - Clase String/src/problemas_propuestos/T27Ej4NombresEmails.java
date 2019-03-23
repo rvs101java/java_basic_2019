@@ -1,6 +1,5 @@
 package problemas_propuestos;
 
-import java.net.CookieHandler;
 import java.util.Scanner;
 
 public class T27Ej4NombresEmails {
@@ -8,19 +7,21 @@ public class T27Ej4NombresEmails {
 	public static void main(String[] args) {
 
 		Personas p = new Personas();
-		// p.getNombreEmail();
+		p.getNombreEmail();
 		p.verNombreEmail();
-		// p.getEmailPorNombre();
-		p.getEmailNoValido();
+		p.getEmailPorNombre();
+		p.getEmailValido();
+		p.getFiltrarEmailInValido();
+
 	}
 }
 
 class Personas {
 
 	private Scanner sc;
-	private String[][] datos1 = new String[4][2];
-	private String[][] datos = new String[][] { { "ana1", "ap1@gmail.com" }, { "ana2", "bbp2@gmail.com" },
-			{ "ana3", "cccp3gmail.com" }, { "ana4", "ddddp4gmail.com" }, { "ana5", "xxxxxxp5@gmail.com" }, };
+	private String[][] datos = new String[4][2];
+	private String[][] datos1 = new String[][] { { "ana1", "ap1@gmail.com" }, { "ana2", "bbp2@gmail.com" },
+			{ "ana3", "cccp3@gmail.com" }, { "ana4", "ddddp4@gmail.com" }, { "ana5", "xxxxxxp5@gmail.com" }, };
 
 	public Personas() {
 		System.out.println("Fila: " + datos.length + " Columna: " + datos[0].length);
@@ -81,28 +82,32 @@ class Personas {
 		}
 	}
 
-	public void getEmailNoValido() {
-		String[][] correoValido = new String[getDatos().length][getDatos()[0].length];
-		String[][] correoInValido = new String[getDatos().length][getDatos()[0].length];
-		System.out.println("ver Elementos:");
+	public String[] getEmailValido() {
+		String[] correoValido = new String[getDatos().length];
 		for (int f = 0; f < getDatos().length; f++) { // 5 filas
 			for (int e = 0; e < getDatos()[f][1].length(); e++) {
 				if (getDatos()[f][1].charAt(e) == '@') {
-					correoValido[f][1] = getDatos()[f][1];
-					System.out.println(correoValido[f][1]);
+					correoValido[f] = getDatos()[f][1];
 				}
 			}
-			System.out.println();
 		}
+		return correoValido;
+	}
 
+	public String[] getFiltrarEmailInValido() {
+		System.out.println("--- Email incorrecto -----");
+		String[] correoInValido = new String[getEmailValido().length];
 		for (int f = 0; f < getDatos().length; f++) {
-			for (int c = 0; c < getDatos()[f][1].length(); c++) {
-//				if() {
-//					
-//				}
+			if (getDatos()[f][1] != (getEmailValido()[f])) {
+				correoInValido[f] = getDatos()[f][1];
 			}
 		}
 
+		for (int i = 0; i < correoInValido.length; i++) {
+			if (correoInValido[i] != null) {
+				System.out.println(correoInValido[i]);
+			}
+		}
+		return correoInValido;
 	}
-
 }
