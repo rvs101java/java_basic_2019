@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ejemplos.Vectores"/>
 <fullyQualifiedTypeName name="ejemplos.Vectores2Sol"/>
 <fullyQualifiedTypeName name="ejemplos.VectorSol3"/>
 <fullyQualifiedTypeName name="ejemplos.VectorSol4"/>
@@ -57,7 +56,8 @@
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthDesktopIconUI"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.FontUIResource"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="problemas_propuestos.Clave"/>
 <fullyQualifiedTypeName name="problemas_propuestos.Personas"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="ejercicio.solucion.Club"/>
 </qualifiedTypeNameHistroy>
