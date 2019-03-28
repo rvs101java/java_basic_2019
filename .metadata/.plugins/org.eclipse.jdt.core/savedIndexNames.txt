@@ -1,6 +1,5 @@
 INDEX VERSION 1.130+C:\_eclipse_repo\pro_ya_java\java_basic_2019\.metadata\.plugins\org.eclipse.jdt.core
 726500244.index
-3079686767.index
 97506626.index
 3847679873.index
 2654914570.index
@@ -11,9 +10,7 @@ INDEX VERSION 1.130+C:\_eclipse_repo\pro_ya_java\java_basic_2019\.metadata\.plug
 4220623203.index
 3152484845.index
 2382940133.index
-1449611481.index
 734279467.index
-1404098992.index
 1894547817.index
 2417354868.index
 412460434.index

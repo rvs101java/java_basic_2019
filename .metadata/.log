@@ -3360,3 +3360,36 @@ java.lang.IllegalArgumentException: Illegal value: -1
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.core.resources 2 2 2019-03-28 22:09:29.257
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '22 - Estructura de datos tipo matriz' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '23 - Matrices (cantidad de filas y columnas)' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '24 - Matrices y vectores paralelos' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '25 - Matrices irregulares' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '26 - Constructor de la clase' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '27 - Clase String' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '28 - Colaboracion de clases' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '29 - Herencia' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '30 - Interfaces visuales (componentes Swing)' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '31 - Swing - JFrame' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '32 - Swing - JLabel' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '33 - Swing - JButton' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '34 - Swing - JTextField' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for '35 - Swing - JTextArea' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-28 22:09:29.257
+!MESSAGE The project description file (.project) for 'xOtrosConceptos' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
