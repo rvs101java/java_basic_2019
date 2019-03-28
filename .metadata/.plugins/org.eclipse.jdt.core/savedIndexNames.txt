@@ -19,11 +19,6 @@ INDEX VERSION 1.130+C:\_eclipse_repo\pro_ya_java\java_basic_2019\.metadata\.plug
 3356973203.index
 3152484845.index
 2382940133.index
-4098352533.index
-1449611481.index
-1388172142.index
-3667399135.index
-2127109749.index
 734279467.index
 1120834805.index
 1404098992.index
