@@ -20,6 +20,7 @@ INDEX VERSION 1.130+C:\_eclipse_repo\pro_ya_java\java_basic_2019\.metadata\.plug
 3152484845.index
 2382940133.index
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 4098352533.index
 1449611481.index
@@ -27,6 +28,8 @@ INDEX VERSION 1.130+C:\_eclipse_repo\pro_ya_java\java_basic_2019\.metadata\.plug
 3667399135.index
 2127109749.index
 >>>>>>> dev
+=======
+>>>>>>> a2639d2c4a11ac39d66ab79d29e9d76cbae33ec0
 734279467.index
 1120834805.index
 1404098992.index
