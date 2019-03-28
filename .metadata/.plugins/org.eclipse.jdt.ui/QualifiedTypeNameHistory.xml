@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ejemplos.Vectores2Sol"/>
-<fullyQualifiedTypeName name="ejemplos.VectorSol3"/>
-<fullyQualifiedTypeName name="ejemplos.VectorSol4"/>
-<fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
-<fullyQualifiedTypeName name="SueldoOperario"/>
-<fullyQualifiedTypeName name="CrearSueldos"/>
-<fullyQualifiedTypeName name="ejemplo.CrearVector"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.math.BigDecimal"/>
-<fullyQualifiedTypeName name="java.math.RoundingMode"/>
-<fullyQualifiedTypeName name="ejemplo.CrearArrays"/>
-<fullyQualifiedTypeName name="ejemplo.Personas"/>
-<fullyQualifiedTypeName name="ejemplo.NombresEdades"/>
-<fullyQualifiedTypeName name="ejercicio.Enteros"/>
-<fullyQualifiedTypeName name="ejercicio.EnterosMayorMenor"/>
-<fullyQualifiedTypeName name="OrdenacionAlumnos"/>
 <fullyQualifiedTypeName name="Sol1"/>
 <fullyQualifiedTypeName name="Matriz"/>
 <fullyQualifiedTypeName name="ejercicios.Matriz4x42"/>
@@ -51,7 +35,6 @@
 <fullyQualifiedTypeName name="MetodosString"/>
 <fullyQualifiedTypeName name="problema.Cadenas"/>
 <fullyQualifiedTypeName name="problemas_propuestos.CorreoElectronico"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="problemas_propuestos.MetodosString"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthDesktopIconUI"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
@@ -60,4 +43,21 @@
 <fullyQualifiedTypeName name="problemas_propuestos.Personas"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="ejercicio.solucion.Club"/>
+<fullyQualifiedTypeName name="ejemplos.Formulario"/>
+<fullyQualifiedTypeName name="problema.Formulario"/>
+<fullyQualifiedTypeName name="Formulario"/>
+<fullyQualifiedTypeName name="problemas_propuestos.Formulario"/>
+<fullyQualifiedTypeName name="FormularioBoton"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="problemas.Formulario"/>
+<fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.awt.Label"/>
+<fullyQualifiedTypeName name="problemas.FormularioSexo"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="FormularioText"/>
 </qualifiedTypeNameHistroy>
