@@ -26,7 +26,7 @@ class FormularioLogin extends JFrame implements ActionListener {
 		label1 = new JLabel("Nombre de usuario");
 		label1.setBounds(10, 10, 100, 30);
 		add(label1);
-		label2 = new JLabel("Clave: ");
+		label2 = new JLabel("Clave:  ");
 		label2.setOpaque(true);
 		
 	
