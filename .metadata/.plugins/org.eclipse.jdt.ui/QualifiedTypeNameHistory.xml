@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Sol1"/>
-<fullyQualifiedTypeName name="Matriz"/>
 <fullyQualifiedTypeName name="ejercicios.Matriz4x42"/>
 <fullyQualifiedTypeName name="ejercicios.Matriz4x4"/>
 <fullyQualifiedTypeName name="ejercicios.Matriz3x4"/>
@@ -48,16 +46,18 @@
 <fullyQualifiedTypeName name="Formulario"/>
 <fullyQualifiedTypeName name="problemas_propuestos.Formulario"/>
 <fullyQualifiedTypeName name="FormularioBoton"/>
-<fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="problemas.Formulario"/>
 <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.awt.Label"/>
 <fullyQualifiedTypeName name="problemas.FormularioSexo"/>
+<fullyQualifiedTypeName name="FormularioText"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.awt.TextField"/>
+<fullyQualifiedTypeName name="FormularioSuma"/>
 <fullyQualifiedTypeName name="javax.swing.JFrame"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
-<fullyQualifiedTypeName name="javax.swing.JLabel"/>
-<fullyQualifiedTypeName name="javax.swing.JTextField"/>
 <fullyQualifiedTypeName name="javax.swing.JButton"/>
-<fullyQualifiedTypeName name="FormularioText"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
 </qualifiedTypeNameHistroy>
