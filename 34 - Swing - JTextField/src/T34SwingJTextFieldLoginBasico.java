@@ -13,7 +13,7 @@ public class T34SwingJTextFieldLoginBasico {
 
 	public static void main(String[] args) {
 		FormularioLogin fl = new FormularioLogin();
-		fl.setBounds(0, 0, 340, 300);
+		fl.setBounds(0, 0, 350, 300);
 		fl.setResizable(false);
 		fl.setVisible(true);
 	}
