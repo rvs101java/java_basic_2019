@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="ProblemasPropuestos.T25MatricesIrregularesEj1Sol"/>
-<fullyQualifiedTypeName name="ProblemasPropuestos.MatrizIrregularEj2"/>
-<fullyQualifiedTypeName name="problemas.Operarios"/>
-<fullyQualifiedTypeName name="problemas.Alumno"/>
-<fullyQualifiedTypeName name="ejercicios.Empleado"/>
-<fullyQualifiedTypeName name="ejercicios.Operaciones"/>
-<fullyQualifiedTypeName name="Cadena"/>
-<fullyQualifiedTypeName name="MetodosString"/>
-<fullyQualifiedTypeName name="problema.Cadenas"/>
 <fullyQualifiedTypeName name="problemas_propuestos.CorreoElectronico"/>
 <fullyQualifiedTypeName name="problemas_propuestos.MetodosString"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthDesktopIconUI"/>
@@ -20,7 +10,6 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="ejercicio.solucion.Club"/>
 <fullyQualifiedTypeName name="ejemplos.Formulario"/>
-<fullyQualifiedTypeName name="problema.Formulario"/>
 <fullyQualifiedTypeName name="Formulario"/>
 <fullyQualifiedTypeName name="problemas_propuestos.Formulario"/>
 <fullyQualifiedTypeName name="FormularioBoton"/>
@@ -43,21 +32,32 @@
 <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
 <fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
 <fullyQualifiedTypeName name="ejercicio.FormularioIgualContenido"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.awt.event.ItemListener"/>
 <fullyQualifiedTypeName name="javax.swing.JComboBox"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="ejemplo.ListaColores"/>
 <fullyQualifiedTypeName name="javax.swing.Action"/>
 <fullyQualifiedTypeName name="java.awt.Adjustable"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
-<fullyQualifiedTypeName name="javax.swing.JFrame"/>
-<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="ejercicios.VentanaOpNum"/>
 <fullyQualifiedTypeName name="javax.swing.JMenuBar"/>
 <fullyQualifiedTypeName name="javax.swing.JMenu"/>
-<fullyQualifiedTypeName name="javax.swing.JButton"/>
 <fullyQualifiedTypeName name="javax.swing.JMenuItem"/>
-<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="T38JCheckBoxBasico.FormularioEtiquetas"/>
+<fullyQualifiedTypeName name="java.awt.ItemSelectable"/>
 <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="problema.Formulario"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
+<fullyQualifiedTypeName name="java.awt.Checkbox"/>
+<fullyQualifiedTypeName name="ejercicio.Ventana"/>
+<fullyQualifiedTypeName name="javax.swing.event.ChangeListener"/>
+<fullyQualifiedTypeName name="Seleccion"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.ButtonGroup"/>
+<fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="problema.Ventana"/>
 </qualifiedTypeNameHistroy>
