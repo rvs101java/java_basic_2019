@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="problemas_propuestos.CorreoElectronico"/>
-<fullyQualifiedTypeName name="problemas_propuestos.MetodosString"/>
-<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthDesktopIconUI"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.FontUIResource"/>
 <fullyQualifiedTypeName name="problemas_propuestos.Clave"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="javax.swing.JButton"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="problema.Ventana"/>
+<fullyQualifiedTypeName name="Pila"/>
+<fullyQualifiedTypeName name="xOtrosConceptos.Principal"/>
+<fullyQualifiedTypeName name="xOtrosConceptos.Principal.Secundaria"/>
 </qualifiedTypeNameHistroy>
