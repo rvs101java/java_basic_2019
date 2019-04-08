@@ -2130,6 +2130,7 @@ IEclipsePreferences#org-eclipse-ui-workbench {
 		'org.eclipse.debug.ui.console.stream.err=255,127,127'
 		'org.eclipse.debug.ui.console.stream.in=0,255,184'
 		'org.eclipse.debug.ui.console.stream.out=255,255,255'
+<<<<<<< HEAD
 		'org.eclipse.egit.ui.DiffAddBackgroundColor=0,0,0'
 		'org.eclipse.egit.ui.DiffAddForegroundColor=237,237,237'
 		'org.eclipse.egit.ui.DiffHeadlineBackgroundColor=0,0,0'
@@ -2142,6 +2143,19 @@ IEclipsePreferences#org-eclipse-ui-workbench {
 		'org.eclipse.egit.ui.UncommittedChangeBackgroundColor=0,0,0'
 		'org.eclipse.egit.ui.UncommittedChangeForegroundColor=219,219,219'
 		'org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight=48,43,33'
+=======
+		'org.eclipse.egit.ui.DiffAddBackgroundColor=51,81,30'
+		'org.eclipse.egit.ui.DiffAddForegroundColor=235,237,239'
+		'org.eclipse.egit.ui.DiffHeadlineBackgroundColor=25,29,31'
+		'org.eclipse.egit.ui.DiffHeadlineForegroundColor=238,240,241'
+		'org.eclipse.egit.ui.DiffHunkBackgroundColor=25,29,31'
+		'org.eclipse.egit.ui.DiffHunkForegroundColor=241,242,244'
+		'org.eclipse.egit.ui.DiffRemoveBackgroundColor=97,45,45'
+		'org.eclipse.egit.ui.DiffRemoveForegroundColor=238,240,241'
+		'org.eclipse.egit.ui.IgnoredResourceForegroundColor=157,167,175'
+		'org.eclipse.egit.ui.UncommittedChangeForegroundColor=216,220,223'
+		'org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight=52,46,35'
+>>>>>>> master
 		'org.eclipse.jdt.ui.abstractMethodInvocationHighlighting=255,255,255'
 		'org.eclipse.jdt.ui.annotationElementReferenceHighlighting=255,255,255'
 		'org.eclipse.jdt.ui.annotationHighlighting=153,153,153'

@@ -6,18 +6,16 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
+<<<<<<< HEAD
 		<item value="" key="selection"/>
+=======
+		<item value="getTurnos" key="selection"/>
+>>>>>>> master
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="getNumero"/>
-			<item value="faltasConEmpleados"/>
-			<item value="getFaltasConEmpleadoValores"/>
-			<item value="getNombresEmpleados"/>
-			<item value="getFaltasConEmpleados"/>
-			<item value="setFaltasEmpleado"/>
-			<item value="getPrimeraColm"/>
-			<item value="getPrimeraFila"/>
+			<item value="getTurnos"/>
+			<item value=""/>
 		</list>
 		<list key="replacehistory">
 		</list>
