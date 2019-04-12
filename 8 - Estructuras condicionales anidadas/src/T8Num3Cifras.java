@@ -28,12 +28,12 @@ public class T8Num3Cifras {
 			}
 		}
 
-		EstructurasCondiconalAnidadas4.getSolucion();
+		EstructurasCondiconalAnidadas4x.getSolucion();
 
 	}
 }
 
-class EstructurasCondiconalAnidadas4 {
+class EstructurasCondiconalAnidadas4x {
 
 	public static void getSolucion() {
 		Scanner teclado = new Scanner(System.in);

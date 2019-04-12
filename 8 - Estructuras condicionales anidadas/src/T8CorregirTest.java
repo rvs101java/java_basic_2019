@@ -48,12 +48,12 @@ public class T8CorregirTest {
 			System.out.println("Fuera del Nivel  : " + (int) total);
 		}
 
-		SolucionTest.getTestResuelto();
+		SolucionTestx.getTestResuelto();
 
 	}
 }
 
-class SolucionTest {
+class SolucionTestx {
 
 	public static void getTestResuelto() {
 		Scanner sc = new Scanner(System.in);

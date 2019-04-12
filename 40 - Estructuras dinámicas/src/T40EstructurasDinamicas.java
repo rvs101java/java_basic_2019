@@ -17,8 +17,7 @@ public class T40EstructurasDinamicas {
 }
 
 /**
- * Clase Principal
- * 
+ * Clase Principal - Heap
  */
 class Pila {
 
@@ -29,44 +28,61 @@ class Pila {
 	 *
 	 */
 	class Nodo {
-		
 		/**
-		 * Variables de la Subclase instancia
+		 * Variables tipo entero de la Subclase instancia
+		 * 
+		 * Almacena el valor
 		 */
 		int info;
-		
 		/**
-		 * Variables de la Subclase instancia
+		 * Variables tipo Nodo de la Subclase instancia
+		 * 
+		 * Objeto que almacena la referencia de tipo Nodo
+		 * 
+		 * Apunta al siguiente nodo o a null si no existe otro nodo 'puntero interno a
+		 * la lista'
 		 */
 		Nodo sig;
 	}
 
 	/**
-	 * Variables instancia de la Clase Principal
+	 * Variables instancia tipo Nodo de la Clase Principal
+	 * 
+	 * Objeto nodo 'raiz' tiene puntero direccion del primero nodo
+	 * 
+	 * 'raiz' apunta a 'null' esta vacia 'sin direccion'
 	 */
 	private Nodo raiz;
 
 	/**
 	 * Construtor principal
+	 * 
+	 * Inicializa a "null" el objeto 'raiz'
+	 * 
+	 * Puntero 'raiz' tiene direccion al primer nodo de la lista nos permite acceder
+	 * a los demas nodos
 	 */
 	public Pila() {
-		raiz = null;
+		raiz = null; // lista vacia sino direccion del primer nodo de la lista
 	}
 
 	/**
+	 * Procedimiento de la clase Principal
 	 * 
 	 * @param x
 	 */
 	public void insertar(int x) {
-		Nodo nuevo = new Nodo(); // Instanciamos un objeto 
-		nuevo.info = x; // dentro del objeto almacenamos un valor entero
-		
-		if (raiz == null) { // objeto apunta a null
-			nuevo.sig = null; // 
-			raiz = nuevo;
-		} else {
-			nuevo.sig = raiz;
-			raiz = nuevo;
+		// Creamos un objeto nodo para almacenar posicion y valor
+		Nodo nuevo = new Nodo(); // definicion puntero o ref. tipo de dato Nodo
+		nuevo.info = x; // almacenamos un valor entero dentro del objeto
+
+		if (raiz == null) { // objeto 'raiz' apunta a null
+			nuevo.sig = null; // indicamos que no hay un siguiente nodo
+			raiz = nuevo; // objeto 'raiz' apunta al objeto 'nuevo' que tiene 'info' y 'sig'
+		} else { // si la lista no esta vacia
+			nuevo.sig = raiz; // objeto 'nuevo' almacena la posicion de la 'raiz' que es la 1º posicion
+			raiz = nuevo; // objeto 'raiz' almacena la posicion 'nuevo' que contiene
+							// la referencia a la nueva posicion
 		}
 	}
 
@@ -75,24 +91,24 @@ class Pila {
 	 * @return
 	 */
 	public int extraer() {
-		if (raiz != null) {
-			int informacion = raiz.info;
-			raiz = raiz.sig;
-			return informacion;
+		if (raiz != null) { // raiz tiene una ref. a la memoria
+			int informacion = raiz.info; // obtenemos el valor
+			raiz = raiz.sig; // apuntamos al siguiente objeto de la Pila
+			return informacion; // devuelve el valor
 		} else {
-			return Integer.MAX_VALUE;
+			return Integer.MAX_VALUE; // Valor como codigo de error
 		}
 	}
 
 	/**
-	 * 
+	 * Mostrar los valores de cada Nodo
 	 */
 	public void imprimir() {
-		Nodo reco = raiz;
+		Nodo recorrer = raiz; // 'recorrer' almacena la posicion del ultimo elemento insertado
 		System.out.println("Listado de todos los elementos de la pila");
-		while (reco != null) {
-			System.out.println(reco.info + "-");
-			reco = reco.sig;
+		while (recorrer != null) { // si tiene elementos
+			System.out.println(recorrer.info + "-"); // muestra su valor
+			recorrer = recorrer.sig; // objeto 'nodo' apunta al siguiente elemento
 		}
 		System.out.println();
 	}
