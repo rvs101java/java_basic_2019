@@ -48,13 +48,13 @@ public class TresNumerosDistintos {
 			}
 
 			System.out.println("Otro ejemplo : ");
-			Solucion.getSolucion();
+			Solucion3a.getSolucion();
 
 		}
 	}
 }
 
-class Solucion {
+class Solucion3a {
 
 	public static void getSolucion() {
 		Scanner sc = new Scanner(System.in);
