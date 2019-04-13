@@ -1,6 +1,6 @@
-package ejercicios;
+package ejemplo;
 
-public class T40RetornarCantidadNodosVacia {
+public class T41RetornarCantidadNodosVacia {
 
 	public static void main(String[] args) {
 		Pila pila1 = new Pila();
