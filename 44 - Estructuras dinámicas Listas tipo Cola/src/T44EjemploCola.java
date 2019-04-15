@@ -32,8 +32,8 @@ class Cola {
 	}
 
 	/**
-	 * Variables de instancia almacenan los punteros del principio y final de la
-	 * Queue
+	 * Variables de instancia almacenan los punteros del principio y final de la Queue
+	 * "Punteros externos"
 	 */
 	private Nodo raiz, fondo;
 
@@ -65,24 +65,24 @@ class Cola {
 	void insertar(int info) {
 		Nodo nuevo = new Nodo(); // creamos nuevo nodo 'puntero/ref'
 		nuevo.info = info; // almacenamos en el nodo 'puntero' el valor
-		nuevo.sig = null; // almacenamos la posicion del nodo 'null'
-		if (vacia()) { // si cola esta vacia 'nuevo' es tanto principio como cola
+		nuevo.sig = null; // puntero con 'null' ya que se insertará al final de la lista, es decir no hay otro después de este.
+		if (vacia()) { // si cola esta vacia 'nuevo' es tanto principio como final de la cola
 			raiz = nuevo; // Nodo 'raiz'
 			fondo = nuevo; // Nodo 'fondo'
-		} else { // sino nodo 'fondo' tiene una ref a 'nuevo'
-			fondo.sig = nuevo;
-			fondo = nuevo; // fondo apunta
+		} else { // sino agregamos un nuevo nodo a la cola llamado 'fondo' tiene una ref a 'nuevo'
+			fondo.sig = nuevo; // Debemos enlazar el puntero sig del último nodo con el nodo recién creado:
+			fondo = nuevo; // fondo apunta al nuevo 'nodo' creado
 		}
 	}
 
 	int extraer() {
 		if (!vacia()) { // si 'raiz' esta vacia cambia su condicion y da 'error' falso
 			int informacion = raiz.info; // obtengo el valor de la 'raiz'
-			if (raiz == fondo) { // 'raiz' y 'fondo' tiene una misma 'ref'
+			if (raiz == fondo) { // 'raiz' y 'fondo' tiene una misma 'ref' para comprobar si solo hay 1 nodo
 				raiz = null;
 				fondo = null;
 			} else {
-				raiz = raiz.sig;
+				raiz = raiz.sig; // Cuando hay 2 o más nodos debemos avanzar el puntero raiz al siguiente nodo
 			}
 			return informacion;
 		} else {
