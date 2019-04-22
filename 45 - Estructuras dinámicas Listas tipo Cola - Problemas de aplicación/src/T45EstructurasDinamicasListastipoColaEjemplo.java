@@ -44,15 +44,15 @@ public class T45EstructurasDinamicasListastipoColaEjemplo {
 class Cola {
 
 	/**
-	 * Subclase
+	 * Subclase : En cada invocación se genera un nuevo nodo
 	 */
 	class Nodo {
-		int info;
-		Nodo sig;
+		int info; // almacena info
+		Nodo sig; // almacena posicion del nodo siguiente
 	}
 
 	/**
-	 * Nodos principio y final de la Queue
+	 * Estos son los nodos del principio y final de la Queue
 	 */
 	Nodo raiz, fondo;
 
@@ -65,6 +65,7 @@ class Cola {
 	}
 
 	/**
+	 * Si no existe el nodo devuelve 'true'
 	 * 
 	 * @return
 	 */
@@ -76,6 +77,8 @@ class Cola {
 	}
 
 	/**
+	 * Creamos un nuevo nodo y le asignamos la información a almacenar y la posicion
+	 * al siguiente nodo
 	 * 
 	 * @param info
 	 */
@@ -83,7 +86,8 @@ class Cola {
 		Nodo nuevo = new Nodo(); // Se crea un nuevo 'nodo' para añadir a la Cola 'Queue'
 		nuevo.info = info; // recibe por parametro el valor
 		nuevo.sig = null; // no apunta al siguiente
-		if (vacia()) { // si la cola no tiene nodos y esta vacia
+		if (vacia()) { // si la cola no tiene nodos y esta vacia el nuevo nodo sera apuntado por la
+						// raiz y la cola
 			raiz = nuevo; // raiz apunta al nuevo nodo
 			fondo = nuevo; // fondo apunta al nuevo nodo
 		} else {
@@ -99,7 +103,7 @@ class Cola {
 	 * @return
 	 */
 	int extraer() {
-		if (!vacia()) { // No esta vacia
+		if (!vacia()) { // Si no esta vacia
 			int informacion = raiz.info; // raiz almacena valor
 			if (raiz == fondo) { // No hay ningun nodo que 'raiz' y 'fondo' apunten
 				raiz = null;
@@ -116,7 +120,7 @@ class Cola {
 	 * 
 	 */
 	public void imprimir() {
-		Nodo reco = raiz; // Nodo 'reco' apunta al 1º nodo
+		Nodo reco = raiz; // Nodo 'reco' apunta al 1º nodo de la cola 'raiz'
 		System.out.println("Listado de todos los elementos de la cola.");
 		while (reco != null) { // hay ref de 'nodos'
 			System.out.println(reco.info + " - ");
@@ -182,33 +186,36 @@ class Cajero extends JFrame implements ActionListener {
 	}
 
 	/**
+	 * 0 - cajero libre 1 - cajero ocupado
 	 * 
 	 */
 	private void simulacion() {
-		int estado = 0;
-		int llegada = 2 + (int) (Math.random() * 2);
-		int salida = -1;
-		int cantAtendidas = 0;
+		int estado = 0; // '0' cajero libre - '1' cajero ocupado
+		int llegada = 2 + (int) (Math.random() * 2); // almacena en que minuto llegará el próximo cliente (debemos
+														// generar un valor entre 2 y 3)
+		int salida = -1; // almacenará en que minuto terminará el cliente de ser atendido (como al
+							// principio el cajero está vacío inicializamos esta variable con -1.
+		int cantAtendidas = 0; // cantidad de personas atendidas (cantAtendidas)
 
-		Cola cola = new Cola();
+		Cola cola = new Cola(); // objeto para almacenar las personas que llegan al cajero y se lo encuentran ocupado
 
 		for (int minuto = 0; minuto < 600; minuto++) { // 600m -> 10 horas
-			if (llegada == minuto) {
-				if (estado == 0) {
-					estado = 1;
-					salida = minuto + 2 + (int) (Math.random() * 3);
+			if (llegada == minuto) { // verificamos si el cajero esta desocupado
+				if (estado == 0) { // cajero desocupado
+					estado = 1; // cajero ocupado
+					salida = minuto + 2 + (int) (Math.random() * 3); // minuto dejará el cajero
 				} else {
-					cola.insertar(minuto);
+					cola.insertar(minuto); // cajero ocupado cargamos la persona en la cola ( insertar el minuto que llega )
 				}
-				llegada = minuto + 2 + (int) (Math.random() * 2);
+				llegada = minuto + 2 + (int) (Math.random() * 2); // siguiente minuto hasta que llegara otra persona
 			}
-			if (salida == minuto) {
-				estado = 0;
+			if (salida == minuto) { // cuando sale la otra persona 
+				estado = 0; // cajero desocupado
 				cantAtendidas++;
-				if (!cola.vacia()) {
+				if (!cola.vacia()) { // si la cola no esta vacia extraemos una persona
 					cola.extraer();
-					estado = 1;
-					salida = minuto + 2 + (int) (Math.random() * 3);
+					estado = 1; // cajero ocupado
+					salida = minuto + 2 + (int) (Math.random() * 3); // minuto dejará el cajero 
 				}
 			}
 		}
