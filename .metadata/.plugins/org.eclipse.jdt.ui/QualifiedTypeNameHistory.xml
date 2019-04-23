@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="ejercicios.Pila.Nodo"/>
-<fullyQualifiedTypeName name="java.lang.InternalError"/>
 <fullyQualifiedTypeName name="Cola"/>
 <fullyQualifiedTypeName name="Cajero"/>
 <fullyQualifiedTypeName name="javax.swing.JProgressBar"/>
@@ -16,4 +15,7 @@
 <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="herencia.Empleado"/>
+<fullyQualifiedTypeName name="java.lang.InternalError"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="ListaGenerica"/>
 </qualifiedTypeNameHistroy>
