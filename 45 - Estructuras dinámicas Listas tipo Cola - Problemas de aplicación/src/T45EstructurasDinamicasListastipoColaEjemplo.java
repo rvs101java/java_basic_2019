@@ -85,7 +85,7 @@ class Cola {
 	void insertar(int info) {
 		Nodo nuevo = new Nodo(); // Se crea un nuevo 'nodo' para añadir a la Cola 'Queue'
 		nuevo.info = info; // recibe por parametro el valor
-		nuevo.sig = null; // no apunta al siguiente
+		nuevo.sig = null; // no apunta al siguiente 'nodo'
 		if (vacia()) { // si la cola no tiene nodos y esta vacia el nuevo nodo sera apuntado por la
 						// raiz y la cola
 			raiz = nuevo; // raiz apunta al nuevo nodo

@@ -4,4 +4,14 @@
 		<item value="729" key="DIALOG_X_ORIGIN"/>
 		<item value="424" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="fa"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
 </section>
