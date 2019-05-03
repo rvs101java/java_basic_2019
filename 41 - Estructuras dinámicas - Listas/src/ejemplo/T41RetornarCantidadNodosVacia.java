@@ -29,16 +29,16 @@ class Pila {
 	 */
 	class Nodo {
 		int info;
-		Nodo sig;
+		Nodo sig; // Puntero que se usa para enlazar al siguiente nodo que se añada
 	}
 
 	/**
-	 * Miembro de instancia : Crea un nodo 'raiz' que sera el nodo de inicio
+	 * Miembro de instancia : Crea un puntero 'raiz' que sera quien apunte al nodo de inicio
 	 */
 	private Nodo raiz;
 
 	/**
-	 * Constructor inicializa nodo raiz
+	 * Constructor inicializa el puntero a null
 	 */
 	Pila() {
 		raiz = null;
@@ -46,6 +46,8 @@ class Pila {
 
 	/**
 	 * Insertamos nodos a la Pila de 'nodos'
+	 * 
+	 * Cada vez que invocamos este metodo genera un nuevo 'nodo'
 	 * 
 	 * @param x
 	 */
