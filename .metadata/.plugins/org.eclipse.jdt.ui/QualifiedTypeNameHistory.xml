@@ -16,7 +16,8 @@
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="herencia.Empleado"/>
 <fullyQualifiedTypeName name="java.lang.InternalError"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="ListaGenerica"/>
 <fullyQualifiedTypeName name="ejemplos.ListaGenericas"/>
+<fullyQualifiedTypeName name="ListaCircular"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
