@@ -19,7 +19,13 @@ class FuncionRecursiva4 {
 
 	/**
 	 * Implementar un método recursivo que imprima en forma descendente de 5 a 1 de
-	 * uno en uno.
+	 * uno en uno.<br>
+	 * 
+	 * Recibe por parametro el valor<br> 
+	 * 
+	 * Comprueba que es mayor que 0<br>
+	 * 
+	 * Multiplica el valor que devuelve el metodo por el parametro pasado en la llamada
 	 * 
 	 * @param fact
 	 */
