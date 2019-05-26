@@ -221,7 +221,8 @@ class Buscaminas extends JFrame implements ActionListener {
 			if (bot[fil][col].getText().equals("0")) { // Si hay 0 bombas en el perimetro
 				bot[fil][col].setText(" "); // No asignamos valor
 				bot[fil][col].setBackground(Color.yellow); // Cambiar el color
-				// Recorremos enteramente cada posicion de la matriz
+				// Recorremos enteramente cada posicion de la matriz 
+				// De forma recursiva
 				recorrer(fil, col + 1); 
 				recorrer(fil, col - 1);
 				recorrer(fil + 1, col);
@@ -255,8 +256,6 @@ class Buscaminas extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == b1) { // pulsar 'boton' b1
 			reiniciar(); // reinica el juego
-		}
-		if (e.getSource() == b2) { // pulsar 'boton' b1
 			System.exit(0);
 		}
 		if (e.getSource() == b3) { // pulsar 'boton' b1
