@@ -6,14 +6,10 @@
 <fullyQualifiedTypeName name="javax.swing.JProgressBar"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="java.awt.BufferCapabilities"/>
-<fullyQualifiedTypeName name="javax.swing.JButton"/>
-<fullyQualifiedTypeName name="javax.swing.JLabel"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="ejercicio.Supermercado"/>
 <fullyQualifiedTypeName name="ejercicio.Cola"/>
-<fullyQualifiedTypeName name="javax.swing.JFrame"/>
 <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
-<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="herencia.Empleado"/>
 <fullyQualifiedTypeName name="java.lang.InternalError"/>
 <fullyQualifiedTypeName name="ListaGenerica"/>
@@ -24,4 +20,10 @@
 <fullyQualifiedTypeName name="problema.FuncionRecursiva"/>
 <fullyQualifiedTypeName name="problema.Recursividad"/>
 <fullyQualifiedTypeName name="problema1.RecursividadConNodos"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="problema3.Laberinto"/>
 </qualifiedTypeNameHistroy>

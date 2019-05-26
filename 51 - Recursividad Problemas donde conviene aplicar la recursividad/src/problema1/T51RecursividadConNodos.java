@@ -11,12 +11,7 @@ public class T51RecursividadConNodos {
 		RecursividadConNodos r = new RecursividadConNodos();
 		r.insertarPrimero(10);
 		r.insertarPrimero(4);
-		r.insertarPrimero(2);
-		r.insertarPrimero(3);
-		r.insertarPrimero(4);
-		r.insertarPrimero(6);
-		r.insertarPrimero(9);
-		r.insertarPrimero(8);
+		r.insertarPrimero(5);
 		r.imprimirInversa();
 	}
 }
@@ -31,7 +26,7 @@ class RecursividadConNodos {
 	 * Nodo de la Lista
 	 */
 	class Nodo {
-		int info;
+		int info; // Nodo almacena dentro un elemento
 		Nodo sig; // Nodo 'puntero' que apunta al sig. nodo de la lista
 	}
 
@@ -63,7 +58,7 @@ class RecursividadConNodos {
 	}
 
 	/**
-	 * 
+	 * Procedimiento recursivo
 	 */
 	public void imprimirInversa() {
 		imprimirInversa(raiz);
